@@ -10,11 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var counter: UILabel!
+    @IBOutlet weak var resetBtn: UIButton!
+    @IBOutlet weak var play: UIButton!
+    @IBOutlet weak var pause: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
-
+    @IBAction func pause(_ sender: Any) {
+    }
+    
+    
+    @IBAction func play(_ sender: Any) {
+    }
+    
 }
 
