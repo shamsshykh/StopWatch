@@ -46,6 +46,10 @@ class ViewController: UIViewController {
     
     }
     
+    @IBAction func abc(_ sender: Any){
+        
+    }
+    
     @IBAction func play(_ sender: Any) {
         timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(funUpdateTimer), userInfo: nil, repeats: true)
         
